@@ -1,0 +1,27 @@
+.sgsr-info-msg {
+    padding: 23px;
+    margin: auto;
+    max-width: 400px;
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #ff000012;
+    color: #ff0000c9;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+
+
+.sgsr-calc-frame{
+		width: 100%;
+		max-width: 1200px;
+		min-width: 900px;
+		border:none;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.sgsr-calc-frame {
+			display: block;
+			width:100%;
+			min-width:280px; 
+		}
+	}

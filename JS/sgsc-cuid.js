@@ -1,0 +1,1 @@
+function sgsr_player_details(o){jQuery.ajax({url:sgsr_admin_ajax(),type:"POST",data:{action:"sgsr_get_project_details",uid:o},cache:!1}).done(function(t){t.cuid=btoa(window.location.host),t.cu=btoa(window.location.href);var n="sgsr_table_"+o,n=document.getElementById(n);n&&n.contentWindow&&n.contentWindow.SGSR_TABLE_DRAW(t)})}
